@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  background: rgb(2,0,36);
-  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(46,46,177,1) 35%, rgba(0,212,255,1) 100%);
   font-family: 'Arimo', sans-serif;
   font-family: Arial;
   color: white;
@@ -22,8 +20,8 @@ section {
   padding-bottom: 0px;
 }
 footer {
-  margin-top: 90px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .premotion {
   margin-bottom: 0px;
@@ -61,7 +59,8 @@ pre {
   line-height: 18.5714px;
 }
 img {
-  width: 400px;
+  width: 600px;
+  height: 400px;
 }
 a:link,
 a:focus,
@@ -72,42 +71,11 @@ a:active {
 a:visited {
   color: white;
 }
-.menu-outer {
-	height: 84px;
-}
-
-.table {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
-}
-
-ul.horizontal-list {
-	min-width: 30px;
-	list-style: none;
-	padding-top: 00px;
-	}
-ul.horizontal-list li {
-	display: inline-block;
-  text-align: center;
 }
 .WIP {
   color: White;
 }
-.projects {
-  color: Orange;
-}
 .Title {
-  color: Orange;
-  text-decoration: underline;
-}
-.pages {
-  color: Orange;
-}
-.projects {
-  color: Orange;
-  text-decoration: underline;
-}
-.horizontal-list h3 {
   text-decoration: underline;
 }
 .navi-box {
@@ -135,6 +103,7 @@ li:hover {
 }
 .navi-button {
   padding: 0px 15px;
+  margin: 30px;
 }
 .text-block {
   margin: 30px 160px;
@@ -150,13 +119,13 @@ div {
   background-repeat: repeat;
   background-size: cover;
 }
-.banner {
+.banner1 {
   min-height: 140px;
   background-image: url(photos/abstract.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.banner1 {
+.banner {
   min-height: 140px;
   background-image: url(photos/markus-spiske.jpg);
   background-repeat: no-repeat;
@@ -176,7 +145,10 @@ div {
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+  /* opacity: 0.7; */
+  -webkit-box-shadow: inset 0px 5px 13px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 5px 13px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 5px 13px 0px rgba(0,0,0,0.75);
 }
 
 /* Set a specific color for each brand */
@@ -203,16 +175,17 @@ div {
 .navi1 {
   margin: 10px 0px 10px 0px;
 }
-/* Set height of body and the document to 100% to enable "full page tabs" */
-/* body, html {
+/* Set height of body and the document to 100% to enable "full page tabs" */ body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
-} */
+}
 
 /* Style tab links */
 .tablink {
-  background-color: #555;
+  background-image: url(photos/bar-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
   float: left;
   border: none;
@@ -224,7 +197,12 @@ div {
 }
 
 .tablink:hover {
-  background-color: #777;
+  background-image: url(photos/bar-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: inset 0px 5px 13px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 5px 13px 0px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 5px 13px 0px rgba(0,0,0,0.75);
 }
 
 /* Style the tab content (and add height:100% for full page content) */
@@ -235,7 +213,23 @@ div {
   height: 100%;
 }
 
-#Home {background-color: red;}
-#Blog {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
+#Home {
+  background-image: url(photos/server.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Blog {
+  background-image: url(photos/matrix.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Contact {
+  background-image: url(photos/keyboard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#About {
+  background-image: url(photos/hdd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
