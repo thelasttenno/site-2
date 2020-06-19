@@ -30,6 +30,7 @@ h1 {
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
+  margin-top: 0px;
 }
 h2 {
   font-size: 25px;
@@ -40,6 +41,9 @@ h3 {
   font-size: 14px;
   font-weight: 700;
   line-height: 15.4px;
+}
+h4 {
+  margin-top: 0px;
 }
 p {
   font-family: 'Open Sans', sans-serif;
@@ -108,8 +112,17 @@ li:hover {
 .text-block {
   margin: 30px 160px;
 }
-.container {
+.container1 {
   margin: 0 auto;
+  text-align: center;
+}
+}
+.container2 {
+  position: relative;
+  margin: 0 600;
+  text-align: center;
+  width:500px;
+  display: inline-block;
 }
 div {
   margin: 0 auto;
@@ -167,6 +180,18 @@ div {
 /* Youtube */
 .fa-youtube {
   background: red;
+  color: white;
+}
+.fa-git {
+  background: red;
+  color: white;
+}
+.fa-gitlab {
+  background: orange;
+  color: white;
+}
+.fa-github {
+  background: purple;
   color: white;
 }
 .navi {
@@ -232,4 +257,8 @@ div {
   background-image: url(photos/hdd.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.form-center {
+  margin-left: 280px;
+  margin-right: 0 auto;
 }

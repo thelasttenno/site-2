@@ -1,18 +1,14 @@
-
-html
-{
-  height:100%;
-  width:100%;
-}
-body{    
-  background:url('images/jurassic-coast-1089035_1920.jpg') no-repeat;
+.panel-body{
+  background:url('photos/jurassic-coast-1089035_1920.jpg') no-repeat;
   background-size: cover;
   height:100%;
-
 }
 
 .form-top{
   margin-top: 30px;
+}
+.form-start{
+margin-right: 0px;
 }
 .panel{
   box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
@@ -38,6 +34,3 @@ body{
   background-color: transparent;
   border-color: #bdc3c7;
 }
-
-
-
